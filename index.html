@@ -1,197 +1,152 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>UGT ECI Canarias | Enlaces</title>
-<meta content="Acceso a los enlaces y redes sociales oficiales de UGT en El Corte Inglés – Gran Canaria. Selecciona tu centro." name="description"/>
-<meta content="UGT ECI Canarias | Gran Canaria" property="og:title"/>
-<meta content="Accede a los enlaces y redes sociales oficiales de UGT en El Corte Inglés – Gran Canaria. Selecciona tu centro." property="og:description"/>
-<meta content="https://ugtecicana.github.io/enlaces7p/logo2.jpg" property="og:image"/>
-<meta content="https://ugtecicana.github.io/grancanaria/" property="og:url"/>
-<style>
+    <meta charset="UTF-8">
+    <title>UGT · El Corte Inglés · Gran Canaria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph / WhatsApp -->
+    <meta property="og:title" content="UGT · El Corte Inglés · Gran Canaria">
+    <meta property="og:description" content="Acceso a los canales oficiales y redes sindicales de UGT en los centros de Gran Canaria.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ugtecicana.github.io/grancanaria/">
+    <meta property="og:image" content="https://ugtecicana.github.io/grancanaria/logo2.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ugtecicana.github.io/grancanaria/logo2.jpg">
+
+    <style>
         body {
-            background-color: #f0f2f5;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f2f2;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            margin: 0;
-            padding: 10px;
         }
-        .container {
-            background-color: white;
+
+        .card {
+            background: #ffffff;
             width: 100%;
-            max-width: 450px;
-            padding: 0 0 25px 0;
+            max-width: 420px;
             border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            padding: 25px 20px 30px;
             text-align: center;
-            overflow: hidden;
-            border-top: 8px solid #e30613;
+            border-top: 6px solid #d50000;
         }
-        /* Logo centrado y ajustado */
-        .header-box {
-            width: 100%;
-            padding: 20px 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .logo-img {
-            width: 90%; 
-            max-width: 380px;
+
+        .logo img {
+            max-width: 100%;
             height: auto;
-            display: block;
+            margin-bottom: 15px;
         }
-        /* Título */
+
         h1 {
-            color: #1a1a1a;
-            font-size: 26px; 
-            margin: 10px 20px;
-            line-height: 1.2;
+            font-size: 22px;
+            margin: 10px 0 5px;
+            color: #000;
         }
-        /* Subtítulo en rojo */
-        .subtitle {
-            color: #e30613;
-            font-size: 17px;
-            font-weight: 600;
-            margin: 0 20px 25px 20px;
-        }
-        .btn-list {
-            padding: 0 20px;
-        }
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #ffffff;
-            color: #333;
-            text-decoration: none;
-            padding: 15px;
-            margin-bottom: 12px;
-            border-radius: 12px;
-            font-weight: 600;
-            font-size: 16px;
-            transition: all 0.2s ease;
-            border: 1px solid #ddd;
-        }
-        .btn svg {
-            width: 22px;
-            height: 22px;
-            margin-right: 12px;
-            flex-shrink: 0;
-        }
-        .btn:active {
-            transform: scale(0.98);
-            background-color: #f9f9f9;
-        }
-        /* Colores de identidad */
-        .whatsapp { border-left: 6px solid #25D366; }
-        .telegram { border-left: 6px solid #0088cc; }
-        .instagram { border-left: 6px solid #E1306C; }
-        .facebook { border-left: 6px solid #1877F2; }
-        .email { border-left: 6px solid #fbbc05; } /* Color amarillo/naranja para email */
-        .buzon { border-left: 6px solid #444; }
 
-
-/* Botones de selección de centro */
-.mesa { border-left: 6px solid #e30613; }
-.siete { border-left: 6px solid #e30613; }
-
-        /* Footer */
-        .footer {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #e30613;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-    
-        /* Texto de bienvenida */
         .welcome {
-            margin: 14px 0 4px;
-            font-size: 18px;
-            color: #111;
-        }
-        .intro {
-            margin: 0 0 6px;
             font-size: 14px;
-            color: #333;
-            line-height: 1.35;
+            color: #444;
+            margin-bottom: 10px;
         }
-        .managed {
-            margin: 0 0 18px;
+
+        .trust {
             font-size: 13px;
             color: #666;
-            line-height: 1.35;
+            margin-bottom: 20px;
         }
 
-        /* Botones: icono + texto */
+        .subtitle {
+            color: #d50000;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
         .btn {
-            justify-content: flex-start;
-            gap: 12px;
-        }
-        .btn svg {
-            width: 22px;
-            height: 22px;
-            flex: 0 0 22px;
-        }
-        .btn-text {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: left;
-            line-height: 1.15;
-        }
-        .btn-title {
+            display: block;
+            text-decoration: none;
+            color: #000;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 8px;
             font-size: 16px;
-        }
-        .btn-sub {
-            margin-top: 3px;
-            font-size: 12.5px;
-            color: #666;
-            font-weight: 500;
+            transition: background 0.2s;
         }
 
+        .btn:hover {
+            background: #f7f7f7;
+        }
+
+        .btn span {
+            display: inline-block;
+            margin-right: 8px;
+            color: #d50000;
+        }
+
+        .btn-info {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #d50000;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
     </style>
-<meta content="website" property="og:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="UGT ECI Canarias | Gran Canaria" name="twitter:title"/><meta content="Accede a los enlaces y redes sociales oficiales de UGT en El Corte Inglés – Gran Canaria. Selecciona tu centro." name="twitter:description"/><meta content="https://ugtecicana.github.io/enlaces7p/logo2.jpg" name="twitter:image"/></head>
+</head>
 <body>
-<div class="container">
-<div class="header-box">
-<img alt="Logo UGT Canarias" class="logo-img" src="logo.png"/>
+
+<div class="card">
+
+    <div class="logo">
+        <img src="logo.jpg" alt="UGT Canarias - El Corte Inglés">
+    </div>
+
+    <h1>¿En qué centro trabajas?</h1>
+
+    <div class="welcome">
+        Bienvenido/a. Este es el punto de acceso a los canales y redes sindicales de UGT
+        en El Corte Inglés – Gran Canaria.
+    </div>
+
+    <div class="trust">
+        Canales gestionados directamente por el equipo sindical de UGT en los centros de Gran Canaria.
+    </div>
+
+    <div class="subtitle">
+        Elige una opción para acceder a los enlaces:
+    </div>
+
+    <a class="btn" href="https://ugtecicana.github.io/grancanaria/enlaces/">
+        <span>🏢</span> Mesa y López
+    </a>
+    <div class="btn-info">
+        Comité de Empresa – Centro Mesa y López
+    </div>
+
+    <a class="btn" href="https://ugtecicana.github.io/grancanaria/enlaces7p/">
+        <span>🏬</span> 7 Palmas / Outlets
+    </a>
+    <div class="btn-info">
+        Comité de Empresa – 7 Palmas y Outlets
+    </div>
+
+    <div class="footer">
+        UGT · EL CORTE INGLÉS · GRAN CANARIA
+    </div>
+
 </div>
-<p class="welcome"><strong>Bienvenido/a</strong></p>
-<p class="intro">Este es el acceso a los canales oficiales de información sindical de UGT<br/>en El Corte Inglés – Gran Canaria.</p>
-<p class="managed">Canales gestionados por el equipo sindical de UGT en los centros de Gran Canaria.</p>
-<h1>¿En qué centro trabajas?</h1>
-<p class="subtitle">Elige tu centro para acceder a los enlaces y redes sociales:</p>
-<div class="btn-list">
-<a class="btn mesa" href="https://ugtecicana.github.io/grancanaria/enlaces/">
-<svg aria-hidden="true" fill="#e30613" viewbox="0 0 24 24">
-<path d="M4 22V6a2 2 0 0 1 2-2h5V2h2v2h5a2 2 0 0 1 2 2v16h-2v-2H6v2H4zm2-4h14V6H6v12zm2-8h2v2H8V10zm0 4h2v2H8v-2zm4-4h2v2h-2V10zm0 4h2v2h-2v-2zm4-4h2v2h-2V10zm0 4h2v2h-2v-2z"></path>
-</svg>
-<span class="btn-text">
-<span class="btn-title">Mesa y López</span>
-<span class="btn-sub">Comité de Empresa – Centro Mesa y López</span>
-</span>
-</a>
-<a class="btn siete" href="https://ugtecicana.github.io/grancanaria/enlaces7p/">
-<svg aria-hidden="true" fill="#e30613" viewbox="0 0 24 24">
-<path d="M7 6V5a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1h2a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a1 1 0 0 1 1-1h3zm2 0h6V5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v1zm-2 5h2v2H7v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2z"></path>
-</svg>
-<span class="btn-text">
-<span class="btn-title">7 Palmas / Outlets</span>
-<span class="btn-sub">Comité de Empresa – 7 Palmas y Outlets</span>
-</span>
-</a>
-</div>
-<div class="footer">
-            Sección Sindical UGT Canarias
-        </div>
-</div>
+
 </body>
 </html>
